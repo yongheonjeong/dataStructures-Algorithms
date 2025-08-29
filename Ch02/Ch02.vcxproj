@@ -128,7 +128,7 @@
     <ClCompile Include="FibonacciProgression.cpp" />
     <ClCompile Include="GeomProgression.cpp" />
     <ClCompile Include="Progression.cpp" />
-    <ClCompile Include="progMain.cpp" />
+    <ClCompile Include="progTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FibonacciProgression.h" />

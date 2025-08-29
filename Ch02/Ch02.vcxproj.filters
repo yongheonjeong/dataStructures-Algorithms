@@ -33,7 +33,7 @@
     <ClCompile Include="FibonacciProgression.cpp">
       <Filter>소스 파일\progression</Filter>
     </ClCompile>
-    <ClCompile Include="progMain.cpp">
+    <ClCompile Include="progTest.cpp">
       <Filter>소스 파일\progression</Filter>
     </ClCompile>
   </ItemGroup>

@@ -13,5 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\CreditCard">
+      <UniqueIdentifier>{fce23a92-6270-4b0d-940a-a7236485ea24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreditCard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CreditCard.cpp">
+      <Filter>소스 파일\CreditCard</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCard.cpp">
+      <Filter>소스 파일\CreditCard</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
