@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\TicTacToe">
       <UniqueIdentifier>{19f66098-5215-44bc-9fab-853aa82081f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SingleLinkedList">
+      <UniqueIdentifier>{0b4e01a3-7c6e-4d03-a7bd-c7a60dd7eeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\SingleLinkedList">
+      <UniqueIdentifier>{d076fe78-539f-4078-bb8d-097daf57015e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scores.h">
@@ -31,6 +37,15 @@
       <Filter>헤더 파일\Game</Filter>
     </ClInclude>
     <ClInclude Include="GameEntry.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLinekdList.h">
+      <Filter>헤더 파일\SingleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralLinkedList.h">
+      <Filter>헤더 파일\SingleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
       <Filter>헤더 파일\Game</Filter>
     </ClInclude>
   </ItemGroup>
@@ -49,6 +64,12 @@
     </ClCompile>
     <ClCompile Include="TicTacToe.cpp">
       <Filter>소스 파일\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLinkedList.cpp">
+      <Filter>소스 파일\SingleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

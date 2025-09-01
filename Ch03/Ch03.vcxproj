@@ -124,17 +124,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="GameEntry.h" />
+    <ClInclude Include="GeneralLinkedList.h" />
     <ClInclude Include="RuntimeException.h" />
     <ClInclude Include="Scores.h" />
+    <ClInclude Include="StringLinekdList.h" />
+    <ClInclude Include="TicTacToe.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dynamicAlloc.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GameEntry.cpp" />
     <ClCompile Include="insertionSort.cpp" />
+    <ClCompile Include="Runner.cpp" />
     <ClCompile Include="Scores.cpp" />
-    <ClCompile Include="TicTacToe.cpp" />
+    <ClCompile Include="StringLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

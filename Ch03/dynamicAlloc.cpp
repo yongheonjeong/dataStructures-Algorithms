@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void dynamicAlloc() {
 	int n = 0,m = 0,count=0;
 	cout << "행의 개수? : ";
 	cin >> n;
