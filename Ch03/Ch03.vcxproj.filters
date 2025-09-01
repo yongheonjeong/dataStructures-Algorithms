@@ -19,6 +19,9 @@
     <Filter Include="헤더 파일\Game">
       <UniqueIdentifier>{12e0e6ce-9bb5-4575-a19f-1bcce71bdd48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\TicTacToe">
+      <UniqueIdentifier>{19f66098-5215-44bc-9fab-853aa82081f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scores.h">
@@ -40,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="insertionSort.cpp">
       <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicAlloc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>소스 파일\TicTacToe</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
