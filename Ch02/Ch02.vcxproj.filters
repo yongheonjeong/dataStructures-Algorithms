@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\progression">
       <UniqueIdentifier>{138bc192-9cfd-4465-a25d-7e4e7cf8ab91}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\template">
+      <UniqueIdentifier>{a1d2550a-4b46-4ebe-882d-852a7b6150ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Exception">
+      <UniqueIdentifier>{c01dca7b-e3bc-4460-ba2a-3d6ee1ca51da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Progression.cpp">
@@ -35,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="progTest.cpp">
       <Filter>소스 파일\progression</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicVector.cpp">
+      <Filter>소스 파일\template</Filter>
+    </ClCompile>
+    <ClCompile Include="MathException.cpp">
+      <Filter>소스 파일\Exception</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

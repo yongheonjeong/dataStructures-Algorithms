@@ -124,10 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CreditCard.h" />
+    <ClInclude Include="Flower.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CreditCard.cpp" />
-    <ClCompile Include="TestCard.cpp" />
+    <ClCompile Include="Flower.cpp" />
+    <ClCompile Include="Test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TestCard.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

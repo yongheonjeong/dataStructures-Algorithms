@@ -13,33 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\CreditCard">
-      <UniqueIdentifier>{fce23a92-6270-4b0d-940a-a7236485ea24}</UniqueIdentifier>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{811c1058-5792-4c7c-9556-c0f709ddb264}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Ex">
-      <UniqueIdentifier>{a0f183d3-3715-4665-b096-9a7b453563ed}</UniqueIdentifier>
+    <Filter Include="헤더 파일\Game">
+      <UniqueIdentifier>{12e0e6ce-9bb5-4575-a19f-1bcce71bdd48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CreditCard.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Scores.h">
+      <Filter>헤더 파일\Game</Filter>
     </ClInclude>
-    <ClInclude Include="Flower.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="RuntimeException.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntry.h">
+      <Filter>헤더 파일\Game</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CreditCard.cpp">
-      <Filter>소스 파일\CreditCard</Filter>
+    <ClCompile Include="GameEntry.cpp">
+      <Filter>소스 파일\Game</Filter>
     </ClCompile>
-    <ClCompile Include="TestCard.cpp">
-      <Filter>소스 파일\CreditCard</Filter>
+    <ClCompile Include="Scores.cpp">
+      <Filter>소스 파일\Game</Filter>
     </ClCompile>
-    <ClCompile Include="Test.cpp">
-      <Filter>소스 파일\Ex</Filter>
-    </ClCompile>
-    <ClCompile Include="Flower.cpp">
-      <Filter>소스 파일\Ex</Filter>
+    <ClCompile Include="insertionSort.cpp">
+      <Filter>소스 파일\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
