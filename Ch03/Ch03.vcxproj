@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CircularLinkedList.h" />
+    <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="GameEntry.h" />
     <ClInclude Include="GeneralLinkedList.h" />
     <ClInclude Include="RuntimeException.h" />
@@ -131,11 +133,19 @@
     <ClInclude Include="TicTacToe.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryFib.cpp" />
+    <ClCompile Include="CircularLinkedList.cpp" />
+    <ClCompile Include="DLinkedList.cpp" />
+    <ClCompile Include="drawRuler.cpp" />
     <ClCompile Include="dynamicAlloc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GameEntry.cpp" />
     <ClCompile Include="insertionSort.cpp" />
+    <ClCompile Include="IterativeReverseArray.cpp" />
+    <ClCompile Include="LinearFib.cpp" />
+    <ClCompile Include="LinearSum.cpp" />
+    <ClCompile Include="ReverseArray.cpp" />
     <ClCompile Include="Runner.cpp" />
     <ClCompile Include="Scores.cpp" />
     <ClCompile Include="StringLinkedList.cpp">

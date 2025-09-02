@@ -28,6 +28,24 @@
     <Filter Include="헤더 파일\SingleLinkedList">
       <UniqueIdentifier>{d076fe78-539f-4078-bb8d-097daf57015e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\DoubleLinkedList">
+      <UniqueIdentifier>{72930965-b219-4035-a704-81c7ac5d4a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dynamic">
+      <UniqueIdentifier>{3d843d3a-ad5a-4d72-bfed-7554de29d30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DoubleLinkedList">
+      <UniqueIdentifier>{3f2b0cf0-e3e0-4e03-adb0-9f66866fcb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\CircularLinkedList">
+      <UniqueIdentifier>{f7c204da-0677-446a-a1f3-fe1f9ec986ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CircularLinkedList">
+      <UniqueIdentifier>{e7c71260-cc97-4f0b-9c27-7d4c488785e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Recursive">
+      <UniqueIdentifier>{8007cfea-fb3c-43ef-af62-f2fb98684371}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scores.h">
@@ -48,6 +66,12 @@
     <ClInclude Include="TicTacToe.h">
       <Filter>헤더 파일\Game</Filter>
     </ClInclude>
+    <ClInclude Include="DLinkedList.h">
+      <Filter>헤더 파일\DoubleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularLinkedList.h">
+      <Filter>헤더 파일\CircularLinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameEntry.cpp">
@@ -59,17 +83,41 @@
     <ClCompile Include="insertionSort.cpp">
       <Filter>소스 파일\Game</Filter>
     </ClCompile>
-    <ClCompile Include="dynamicAlloc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="TicTacToe.cpp">
       <Filter>소스 파일\TicTacToe</Filter>
     </ClCompile>
-    <ClCompile Include="StringLinkedList.cpp">
-      <Filter>소스 파일\SingleLinkedList</Filter>
-    </ClCompile>
     <ClCompile Include="Runner.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicAlloc.cpp">
+      <Filter>소스 파일\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedList.cpp">
+      <Filter>소스 파일\DoubleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularLinkedList.cpp">
+      <Filter>소스 파일\CircularLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="drawRuler.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearSum.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseArray.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="IterativeReverseArray.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFib.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearFib.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLinkedList.cpp">
+      <Filter>소스 파일\SingleLinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
