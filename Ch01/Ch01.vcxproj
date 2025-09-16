@@ -123,17 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AllKinds.h" />
     <ClInclude Include="CreditCard.h" />
     <ClInclude Include="Flower.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AllKinds.cpp" />
     <ClCompile Include="CreditCard.cpp" />
+    <ClCompile Include="divideTwo.cpp" />
     <ClCompile Include="Flower.cpp" />
-    <ClCompile Include="Test.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="isMultiple.cpp" />
+    <ClCompile Include="isTwoPower.cpp" />
+    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="sumAll.cpp" />
+    <ClCompile Include="sumOdd.cpp" />
     <ClCompile Include="TestCard.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

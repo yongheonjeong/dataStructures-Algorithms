@@ -28,7 +28,4 @@ void testCard() {
 	}
 }
 
-int main() {
-	testCard();
-	return EXIT_SUCCESS;
-}
+ 

@@ -11,6 +11,7 @@ CreditCard::CreditCard(const string& no, const string& nm, int lim, double bal)
 }
 
 bool CreditCard::chargeIt(double price) {
+	if (price <= 0) return false;
 	if (price + balance > double(limit))
 		return false;
 	balance += price;
@@ -18,7 +19,8 @@ bool CreditCard::chargeIt(double price) {
 }
 
 void CreditCard::makePayment(double payment) {
-	balance -= payment;
+	if (payment <= 0) return;
+	balance -= (payment*1.05);
 }
 
 ostream& operator<<(ostream& out, const CreditCard& c) {

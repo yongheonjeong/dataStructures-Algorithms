@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Power.cpp" />
     <ClCompile Include="prefixAverages1.cpp" />
     <ClCompile Include="prefixAverages2.cpp" />
     <ClCompile Include="Runner.cpp" />
