@@ -5,9 +5,8 @@
 #include "GeomProgression.h"
 
 
-using namespace std;
-
-int main() {
+ 
+void progTest() {
 	Progression* prog;
 	
 	cout << "Arithmetic progression with default increment: \n";
