@@ -126,17 +126,18 @@
     <ClCompile Include="ArithProgression.cpp" />
     <ClCompile Include="ArithProgression.h" />
     <ClCompile Include="BasicVector.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="FibonacciProgression.cpp" />
     <ClCompile Include="GeomProgression.cpp" />
     <ClCompile Include="MathException.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Progression.cpp" />
     <ClCompile Include="progTest.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Runner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FibonacciProgression.h" />

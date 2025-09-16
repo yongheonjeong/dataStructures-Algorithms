@@ -19,7 +19,7 @@ BasicVector<T>::BasicVector(int capac) {
 }
 
 
-int main() {
+void BasicVectorMain() {
 	BasicVector<double> bd(5);
 	for (int i = 0; i < 5; i++) {
 		bd[i] = i;

@@ -20,7 +20,8 @@ public:
 		: MathException(err) {
 	}
 };
-int main() {
+
+void MathExeption() {
 	
 	int share = 0;
 	int divisor = 0;

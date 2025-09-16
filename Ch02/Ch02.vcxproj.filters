@@ -48,6 +48,9 @@
     <ClCompile Include="MathException.cpp">
       <Filter>소스 파일\Exception</Filter>
     </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Progression.h">

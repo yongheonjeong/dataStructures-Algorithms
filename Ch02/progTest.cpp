@@ -33,7 +33,4 @@ void progTest() {
 	prog->printProgression(10);
 
 
-
-	
-
 }
