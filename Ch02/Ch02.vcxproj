@@ -124,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArithProgression.cpp" />
-    <ClCompile Include="ArithProgression.h" />
+	<ClInclude  Include="ArithProgression.h" />
     <ClCompile Include="BasicVector.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>

@@ -1,7 +1,9 @@
 #pragma once
-
 #include <iostream>
 #include "Progression.h"
+#ifndef FIBONACCI_PROGRESSION_H
+#define FIBONACCI_PROGRESSION_H
+
 using namespace std;
 
 class FibonacciProgression : public Progression {
@@ -14,3 +16,5 @@ protected:
 	long second;
 	long prev;
 };
+
+#endif

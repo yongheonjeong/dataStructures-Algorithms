@@ -1,6 +1,8 @@
 #pragma once
 #include "Progression.h"
 #include <iostream>
+#ifndef GEOM_PROGRESSION_H
+#define GEOM_PROGRESSION_H
 using namespace std;
 
 class GeomProgression : public Progression {
@@ -11,3 +13,5 @@ protected:
 protected:
 	long base;
 };
+
+#endif
