@@ -124,7 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArithProgression.cpp" />
-	<ClInclude  Include="ArithProgression.h" />
+    <ClCompile Include="DynamicBinding.cpp" />
+    <ClCompile Include="DynamicCasting.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="ArithProgression.h" />
     <ClCompile Include="BasicVector.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -142,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="FibonacciProgression.h" />
     <ClInclude Include="GeomProgression.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Progression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

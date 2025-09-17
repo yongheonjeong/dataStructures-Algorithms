@@ -22,13 +22,19 @@
     <Filter Include="소스 파일\Exception">
       <UniqueIdentifier>{c01dca7b-e3bc-4460-ba2a-3d6ee1ca51da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\School">
+      <UniqueIdentifier>{ce5cefe9-a0ca-4996-a062-8215923c7d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\School">
+      <UniqueIdentifier>{4825ca50-45c2-48ff-89cc-5a31a5871fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Progression">
+      <UniqueIdentifier>{400fcc91-424d-4ecb-9df0-8e16dca6548e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Progression.cpp">
       <Filter>소스 파일\progression</Filter>
-    </ClCompile>
-    <ClCompile Include="ArithProgression.h">
-      <Filter>헤더 파일</Filter>
     </ClCompile>
     <ClCompile Include="ArithProgression.cpp">
       <Filter>소스 파일\progression</Filter>
@@ -51,15 +57,36 @@
     <ClCompile Include="Runner.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일\School</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>소스 파일\School</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBinding.cpp">
+      <Filter>소스 파일\School</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCasting.cpp">
+      <Filter>소스 파일\School</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Progression.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Progression</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithProgression.h">
+      <Filter>헤더 파일\Progression</Filter>
     </ClInclude>
     <ClInclude Include="FibonacciProgression.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Progression</Filter>
     </ClInclude>
     <ClInclude Include="GeomProgression.h">
+      <Filter>헤더 파일\Progression</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>헤더 파일\School</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
