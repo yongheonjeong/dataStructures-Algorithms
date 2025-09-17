@@ -6,7 +6,9 @@ class BasicVector {
 public:
 	BasicVector(int capac = 10);
 	T& operator[](int i) { return a[i]; }
-
+	~BasicVector() {
+		delete a;
+	}
 private:
 	T* a;
 	int capacity;
@@ -24,5 +26,7 @@ void BasicVectorMain() {
 	for (int i = 0; i < 5; i++) {
 		bd[i] = i;
 	}
-	cout << bd[4];
+	for (int i = 0; i < 5; i++) {
+		cout << bd[i] <<  " ";
+	}
 }

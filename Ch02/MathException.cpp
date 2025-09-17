@@ -27,15 +27,15 @@ void MathExeption() {
 	int divisor = 0;
 
 
-	//try {
-	//	if (divisor == 0)
-	//		throw ZeroDivide("Divided by zero in Module X");
+	try {
+	 	if (divisor == 0)
+			throw ZeroDivide("Divided by zero in Module X");
 
-	//}
-	//catch (ZeroDivide& zde) {
-
-	//}
-	//catch (MathException& me) {
-
-	//}
+	 }
+	 catch (ZeroDivide& zde) {
+		 cout << zde.getError();
+	 }
+	 catch (MathException& me) {
+		 cout << me.getError();
+	 }
 }

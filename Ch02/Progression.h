@@ -8,7 +8,7 @@ public:
 	void printProgression(int n);
 protected:
 	virtual long firstValue();
-	virtual long nextValue();
+	virtual long nextValue()=0;
 protected:
 	long first;
 	long cur;
