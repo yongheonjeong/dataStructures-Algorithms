@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\Recursive">
       <UniqueIdentifier>{8007cfea-fb3c-43ef-af62-f2fb98684371}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Challenge">
+      <UniqueIdentifier>{188f9fd5-3ae4-4fc3-9e1c-b79f588a7574}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scores.h">
@@ -118,6 +121,12 @@
     </ClCompile>
     <ClCompile Include="StringLinkedList.cpp">
       <Filter>소스 파일\SingleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="R-3.3.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="R-3.4.cpp">
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -18,7 +18,7 @@ void drawTicks(int tickLength)
 
 void drawRuler(int nInches, int majorLength) {
 	drawOneTick(majorLength, 0);
-	for (int i = 0; i <= nInches; i++) {
+	for (int i = 1; i <= nInches; i++) {
 		drawTicks(majorLength - 1);
 		drawOneTick(majorLength, i);
 	}

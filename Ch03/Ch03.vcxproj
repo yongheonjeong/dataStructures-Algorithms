@@ -145,6 +145,8 @@
     <ClCompile Include="IterativeReverseArray.cpp" />
     <ClCompile Include="LinearFib.cpp" />
     <ClCompile Include="LinearSum.cpp" />
+    <ClCompile Include="R-3.3.cpp" />
+    <ClCompile Include="R-3.4.cpp" />
     <ClCompile Include="ReverseArray.cpp" />
     <ClCompile Include="Runner.cpp" />
     <ClCompile Include="Scores.cpp" />
