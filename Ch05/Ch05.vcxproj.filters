@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Stack.h">
+    <ClInclude Include="ArrayStack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Exception.h">
@@ -26,8 +26,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayStack.cpp">
-      <Filter>소스 파일\Stack</Filter>
+    <ClCompile Include="Runner.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

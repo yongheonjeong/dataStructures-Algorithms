@@ -124,10 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Exception.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="ArrayStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayStack.cpp" />
+    <ClCompile Include="Runner.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
