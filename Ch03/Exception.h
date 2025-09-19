@@ -1,6 +1,6 @@
 #pragma once
-#ifndef  RUNTIME_EXCEPTION_H
-#define  RUNTIME_EXCEPTION_H
+#ifndef  EXCEPTION_H
+#define  EXCEPTION_H
 
 #include <iostream>
 #include <string>
@@ -13,5 +13,9 @@ private:
 	std::string errMsg;
 };
 
- 
+class StackEmpty : public RuntimeException {
+public:
+	StackEmpty(const std::string& err) : RuntimeException(err) {}
+};
+
 #endif

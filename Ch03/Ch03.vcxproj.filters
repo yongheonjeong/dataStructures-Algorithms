@@ -54,9 +54,6 @@
     <ClInclude Include="Scores.h">
       <Filter>헤더 파일\Game</Filter>
     </ClInclude>
-    <ClInclude Include="RuntimeException.h">
-      <Filter>헤더 파일\Game</Filter>
-    </ClInclude>
     <ClInclude Include="GameEntry.h">
       <Filter>헤더 파일\Game</Filter>
     </ClInclude>
@@ -127,6 +124,9 @@
     </ClCompile>
     <ClCompile Include="R-3.4.cpp">
       <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimeException.h">
+      <Filter>헤더 파일\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

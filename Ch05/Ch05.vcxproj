@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{db8b9e19-0def-4a1b-8fef-bc6716bb7f90}</ProjectGuid>
-    <RootNamespace>Ch03</RootNamespace>
+    <ProjectGuid>{4f7ecf89-5cd5-4c09-bce8-4026c72f7f49}</ProjectGuid>
+    <RootNamespace>Ch05</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,39 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CircularLinkedList.h" />
-    <ClInclude Include="DLinkedList.h" />
-    <ClInclude Include="GameEntry.h" />
-    <ClInclude Include="GeneralLinkedList.h" />
-    <ClInclude Include="Scores.h" />
-    <ClInclude Include="StringLinekdList.h" />
-    <ClInclude Include="TicTacToe.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryFib.cpp" />
-    <ClCompile Include="CircularLinkedList.cpp" />
-    <ClCompile Include="DLinkedList.cpp" />
-    <ClCompile Include="drawRuler.cpp" />
-    <ClCompile Include="dynamicAlloc.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="GameEntry.cpp" />
-    <ClCompile Include="insertionSort.cpp" />
-    <ClCompile Include="IterativeReverseArray.cpp" />
-    <ClCompile Include="LinearFib.cpp" />
-    <ClCompile Include="LinearSum.cpp" />
-    <ClCompile Include="R-3.3.cpp" />
-    <ClCompile Include="R-3.4.cpp" />
-    <ClCompile Include="ReverseArray.cpp" />
-    <ClCompile Include="Runner.cpp" />
-    <ClCompile Include="RuntimeException.h" />
-    <ClCompile Include="Scores.cpp" />
-    <ClCompile Include="StringLinkedList.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TicTacToe.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="ArrayStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

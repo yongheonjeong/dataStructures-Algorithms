@@ -21,6 +21,6 @@ int main() {
 	// int x = Power(2, 5);
 	// cout << x << "\n";
 
-
+	cout << Power(2, 5);
 }
 
